@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CommonChars by @hachesilva</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<section class="pane pane--main">
+		<div class="pane__header">
+			<h1 class="pane__title">CommonChars</h1>
+
+			<a href="#help" class="btn btn-help" id="help"><i class="icon">?</i></a>
+		</div>
+		<main class="pane__content">
+			<div id="messages"></div>
+
+			<div id="buttons-list"></div>
+		</main>
+	</section>
+
+	<div class="help-overlay">
+		<section class="pane pane--help">
+			<div class="pane__header">
+				<h1 class="pane__title" data-translate="txtHelp">Help</h1>
+
+				<a href="#close" class="btn btn-close" id="close"><i class="icon">X</i></a>
+			</div>
+
+			<div class="instructions">
+				<h2 data-translate="txtUsage">Usage Instructions</h2>
+				<ol data-translate="txtInstructions">
+					<li>Click the 'ñ' icon in the Chrome toolbar</li>
+					<li>Look for the character you want to copy</li>
+					<li>Click the character to copy it to the computer clipboard</li>
+					<li>Use the <kbd>Ctrl</kbd>+<kbd>v</kbd> keyboard shortcut (<kbd>Command</kbd>+<kbd>v</kbd> on Mac) to paste it wherever you need to.</li>
+				</ol>
+
+				<p class="donation">
+					<a href="https://www.paypal.me/hachesilva" title="Donate with paypal" class="btn btn-donate" target="_blank" data-translate="txtDonate">Donate</a>
+				</p>
+			</div>
+		</section>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
