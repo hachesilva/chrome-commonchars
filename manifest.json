@@ -15,7 +15,6 @@
       "512": "icon512.png"
    },
    "permissions": [
-      "activeTab",
       "clipboardWrite"
     ],
    "browser_action": {
